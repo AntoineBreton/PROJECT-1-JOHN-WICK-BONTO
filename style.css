@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "johnwick";
+  src: url("../missiondanger.ttf");
+}
+
+@font-face {
+  font-family: "timer-johnwick";
+  src: url("../timerfont-johnwick/Open\ 24\ Display\ St.ttf");
+}
+
+@font-face {
+  font-family: "roboto-font-johnwick";
+  src: url("../roboto/Roboto-Black.ttf");
+}
+
+body {
+  /* margin: 0; */
+  font-family: "roboto-font-johnwick";
+  background-size: cover;
+  background: url("../onds-decran-John-Wick.jpg");
+  /* background: no-repeat; */
+  margin: 100px 0px;
+}
+
+/* HOMEPAGE */
+
+#Homepage {
+  display: block;
+}
+
+#Gamepage {
+  display: none;
+}
+
+.game-name-homepage {
+  font-family: "johnwick";
+  font-size: 100px;
+  text-align: center;
+  color: greenyellow;
+  padding-top: 100px;
+}
+
+.game-context-homepage {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+  /* ajouter un addEventListener pour agrandir le texte lorsque le curseur de la souris passe dessus */
+}
+
+.game-context-homepage span {
+  color: greenyellow;
+}
+
+#form-homepage {
+  padding-left: 700px;
+}
+
+.birth-date-text-homepage {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: large;
+  margin: 10px 00px;
+  padding: 3px;
+}
+
+.birth-date-text-homepage span {
+  color: red;
+}
+
+.birth-date-input-homepage {
+  text-align: center;
+  background-color: white;
+  color: red;
+  font-size: large;
+  padding: 4px 0px;
+}
+
+.enter-button-homepage {
+  font-family: "johnwick";
+  font-weight: bolder;
+  /* background-color: black;
+  color: greenyellow;
+  font-size: larger;
+  text-align: center; */
+  /* width:  */
+  background-color: black;
+  color: greenyellow;
+  font-size: 2rem;
+  padding: 15px 50px;
+  border-radius: 80px;
+  margin: 65px 1250px;
+  padding: 15px 0px;
+  width: 300px;
+  /* box-shadow: 5px 5px 0 rgba(151, 12, 251, 0.6); */
+  /* ajouter un filtre qui empeche de lancer le jeu si la date de naissance dand 'l'input date' est < à 18ans */
+}
+
+/* GAMEPAGE */
+
+.game-name-gamepage {
+  font-family: "johnwick";
+  font-size: 100px;
+  text-align: center;
+  color: greenyellow;
+  padding-top: 100px;
+}
+
+.pick-right-card-text {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+/* .pot-cards-background {
+  background: rgba(116, 3, 157, 0.4);
+  margin: 50px;
+  padding: 80px 20px;
+  height: 600px;
+} */
+
+#cards-game {
+  background: rgba(116, 3, 157, 0.4);
+  margin: 50px;
+  padding: 80px 20px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.mistery-card-1 {
+  background: url("../carte-mistere.jpg");
+  background-size: contain;
+  width: 25%;
+  border: 4px solid white;
+}
+
+.mistery-card-2 {
+  background: url("../carte-mistere.jpg");
+  background-size: contain;
+  width: 25%;
+  border: 4px solid white;
+}
+
+.mistery-card-3 {
+  background: url("../carte-mistere.jpg");
+  background-size: contain;
+  width: 25%;
+  border: 4px solid white;
+}
+
+/* .dog-card {
+    background: url("../carte-chien-john-wick.jpg")
+} */
+
+/* .cat-card {
+    background: url("../carte-chat-johnwick.jpg")
+} */
+
+/* .bad-guy-card {
+    background: url("../carte-méchant-johnwick4.jpg")
+} */
+
+#timer {
+  font-family: "timer-johnwick";
+  color: red;
+  background-color: black;
+  margin: 40px 670px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  border: 3px solid red;
+}
+
+#card-reference {
+  background: url("../carte-chien-john-wick.jpg");
+}
+
+/* .dog-card-reference {
+  background: url("../carte-chien-john-wick.jpg");
+} */
+
+#start-game {
+  margin: 20px 430px;
+  padding: 10px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.start-game-button {
+  font-family: "johnwick";
+  background-color: black;
+  color: greenyellow;
+  font-size: 2rem;
+  padding: 15px 50px;
+  border-radius: 80px;
+}
